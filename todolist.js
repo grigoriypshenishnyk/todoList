@@ -1,15 +1,12 @@
 person = [
-  { value: "Pants", filter: false, id: "asda" },
-  { value: "Jacket", filter: false, id: "dasda" },
-  { value: "iPhone Charger", filter: true, id: "asd1" },
-  { value: "MacBook", filter: true, id: "2asd1" },
-  { value: "Sleeping Pills", filter: true, id: "2sd1" },
-  { value: "Underwear", filter: false, id: "2ssdfd1" },
-  { value: "Hat", filter: false, id: "2ssdf1" },
-  { value: "T-Shirts", filter: true, id: "2ssdf" },
-  { value: "Belt", filter: false, id: "2qweqwssdf" },
-  { value: "Passport", filter: false, id: "2qeqwssdf" },
-  { value: "Sandwich", filter: false, id: "2qewssdf" },
+  { value: "Buy bread", filter: false, id: "asda" },
+  { value: "Buy milk", filter: false, id: "dasda" },
+  { value: "Charge Phone", filter: true, id: "asd1" },
+  { value: "Fill car with fuel", filter: true, id: "2asd1" },
+  { value: "Check average fuel consumption", filter: true, id: "2sd1" },
+  { value: "Buy water", filter: false, id: "2ssdfd1" },
+  { value: "Change tires", filter: true, id: "2ssdf" },
+  { value: "Change timing belt", filter: true, id: "2qweqwssdf" }
 ];
 
 const storage = {

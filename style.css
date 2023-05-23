@@ -79,14 +79,6 @@ header button {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/*
-span {
-  display: flex;
-  align-items: center;
-  margin-right: 10px;
-  width: 90%;
-}*/
-
 
 label input {
   appearance: none;
@@ -123,6 +115,10 @@ div p {
   width: 350px;
   word-break: break-word;
   text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.made div p {
+  text-decoration: line-through;
 }
 
 .item {
