@@ -77,13 +77,15 @@ const ToDo = (personItem) => {
 person.forEach(ToDo);
 
 mainbtn.addEventListener("click", () => {
-    const newItem = {
-      value: maininp.value,
-      filter: false,
-      id: "num_" + person.length + Math.random(),
-    };
-    maininp.value = ""
-    person.push(newItem);
-    ToDo(newItem);
-    storage.set(person);
-  })
+  if (maininp.value != "") {
+      const newItem = {
+        value: maininp.value,
+        filter: false,
+        id: "num_" + person.length + Math.random(),
+      };
+      maininp.value = ""
+      person.push(newItem);
+      ToDo(newItem);
+      storage.set(person);
+  }   
+})
